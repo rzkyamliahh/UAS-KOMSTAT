@@ -28,7 +28,7 @@ tryCatch({
   #Data SoVI
   sovi_data <- read_csv("https://raw.githubusercontent.com/bmlmcmc/naspaclust/main/data/sovi_data.csv")
   
-  #Matriks penimbang jarak
+  #Data Matriks penimbang jarak
   distance_matrix <- read.csv("https://raw.githubusercontent.com/bmlmcmc/naspaclust/main/data/distance.csv", row.names = 1)
   
   print("✅ Data berhasil dimuat dari URL")
